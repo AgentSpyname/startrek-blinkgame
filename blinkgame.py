@@ -38,10 +38,10 @@ GPIO.setup(yellowled, GPIO.OUT) #Sets Yellow LED as output
 #Main Program
 
 #Uncomment the Following Code to get the answer printed out neatly at the top. Use this for testing any modifications. NO cheating :P
-print "DEBUG MODE:"
-print "\b"
-print secret
-print "\b"
+#print "DEBUG MODE:"
+#print "\b"
+#print secret
+#print "\b"
 
 #Main Game with Loops
 os.popen("omxplayer tng_chirp_clean.mp3")
@@ -82,10 +82,10 @@ while wins < 3 and play == 1:
                  tries = 0
                  secret = random.randint(1, 99)
                  #Uncomment Lines Below for Debug
-                 print "DEBUG MODE:"
-                 print "\b"
-                 print secret
-                 flag = 0
+                # print "DEBUG MODE:"
+                 #print "\b"
+                 #print secret
+                 #flag = 0
             elif varcontinue == "No":
                 print "Thank you for your help. Starfleet will still remember your actions. "
                 play = 0
