@@ -9,7 +9,7 @@ It shows off the power of your new(or old) Raspberry Pi by using both the GPIO P
 
 You will first have to hook up a basic circut to your GPIO pins(the pins on the top left of the board). You will need some basic electric components. If this is your first time the GPIO pins, you need to purchase a breadboard, led lights, resistors and breadboarding jumper wire. 
 These are relativley cheap from [Adafruit](www.adafruit.com) so make sure to grab those before starting.
-If you are using the model A+ or B+ follow [this diagram](link) to find a diagram and more instrcutions on how to hook it up to the breadboard. Plug in a speaker to the audio jack. 
+If you are using the model A+ or B+ follow this diagram(coming soon) to find a diagram and more instrcutions on how to hook it up to the breadboard. Plug in a speaker to the audio jack. 
 Then  run `sudo apt-get upgrade` and `sudo apt-get update` in terminal on your Raspberry Pi. Then run `git clone link` and `cd startrek-blinkgame`. Then `sudo python blinkgame.py`. If everything works you should be able to play the game, and the lights will light and sounds will play.
 
 Try looking up the commands used in the script and modifying it. 
@@ -21,7 +21,8 @@ System Requiremnts
 
 Raspberry Pi
 -----
-You must be using the Raspberry Pi to run this script. You will have to hook up a basic circut comprising of 3 leds. For instructions on wiring the circut, [click here](linkhere).
+You must be using the Raspberry Pi to run this script. You will have to hook up a basic circut comprising of 3 leds. For instructions on wiring the circut, [click here](linkhere).It is pretty simple. Connect 3LEDs to Pins 23,11,37. 
+
 
 This script has been written to be run  on the Raspberry Pi Model A+ and Model B+. If you are using the A+ or B+ and hooked your LEDs to the same pins on the board in the script, the script should have no trouble running.  
 To run this script on the orginal Model A or B or with diffrent pins, change variables `redled`, `blueled` and `yellowled` to the pin numbers you chose.
@@ -38,7 +39,7 @@ Ensure that you have the following software installed and up to date. All of thi
 Installation
 -----------
 
-    git clone link
+    git clone https://github.com/blueexpert11/startrek-blinkgame.git
 
 Usage
 -----
@@ -56,5 +57,5 @@ Contributing
 ------------
 
 Any contributions and changes to the script are appreciated. Thanks!
---------
+
 
